@@ -5,6 +5,7 @@ PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magent
 HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=~/.zsh_history
+HISTCONTROL=ignoreboth
 
 # setting means cd can not be ommited when changing directory, just type a path to cd into it
 setopt auto_cd
