@@ -55,6 +55,7 @@ return {
 					"gofumpt",
 					"eslint_d",
 					-- "clang-format",
+					"shellcheck",
 				},
 			})
 		end,
