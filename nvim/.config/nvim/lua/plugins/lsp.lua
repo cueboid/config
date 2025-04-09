@@ -42,6 +42,7 @@ return {
 					"astro",
 					"ts_ls",
 					"clangd",
+					"taplo",
 				},
 			})
 
