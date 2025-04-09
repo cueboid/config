@@ -1,5 +1,6 @@
 autoload -U colors && colors
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+
+export PS1="%{%F{207}%}%n%{%F{15}%}@%{%F{15}%}%m %{%F{7}%}%1~ %{%f%}$ "
 
 HISTSIZE=10000
 SAVEHIST=10000
