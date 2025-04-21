@@ -26,6 +26,7 @@ local options = {
 	wrap = false,
 	cursorline = true,
 	fileencoding = "utf-8",
+	colorcolumn = "80",
 }
 
 vim.opt.shortmess:append("IsF")
