@@ -1,7 +1,7 @@
 local options = {
 	autoindent = true,
 	smartindent = true,
-	tabstop = 8,
+	tabstop = 4,
 	shiftwidth = 4,
 	expandtab = true,
 	showtabline = 0,
