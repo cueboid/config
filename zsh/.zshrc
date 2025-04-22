@@ -30,6 +30,7 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
 alias pm="pulsemixer"
+alias pc="pacmixer"
 alias lg='lazygit'
 alias zj='zellij'
 alias mk='make'
