@@ -57,7 +57,6 @@ return {
 					"eslint_d",
 					-- "clang-format",
 					"shellcheck",
-					"yamlfmt",
 					"yaml-language-server",
 					"yamllint",
 				},
