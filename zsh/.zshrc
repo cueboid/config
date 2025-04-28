@@ -32,6 +32,8 @@ bindkey -M viins '^H' backward-delete-char
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
+alias la="ls -lathr"
+
 alias pm="pulsemixer"
 alias pc="pacmixer"
 alias lg='lazygit'
