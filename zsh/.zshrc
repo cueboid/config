@@ -7,6 +7,9 @@ SAVEHIST=10000
 HISTFILE=~/.zsh_history
 HISTCONTROL=ignoreboth
 
+# shares zsh history between sessions
+setopt SHARE_HISTORY
+
 # setting means cd can not be ommited when changing directory, just type a path to cd into it
 setopt auto_cd
 
