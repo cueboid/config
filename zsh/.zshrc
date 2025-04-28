@@ -35,6 +35,7 @@ alias lg='lazygit'
 alias zj='zellij'
 alias mk='make'
 alias n='nvim'
+alias v='vim'
 
 if ! command -v hx &> /dev/null; then
 	alias hx='helix'
