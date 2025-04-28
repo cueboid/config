@@ -10,7 +10,7 @@ HISTCONTROL=ignoreboth
 # shares zsh history between sessions
 setopt SHARE_HISTORY
 
-# setting means cd can not be ommited when changing directory, just type a path to cd into it
+# setting means cd can not be ommited when changing directory
 setopt auto_cd
 
 # auto completion stuff
