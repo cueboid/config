@@ -46,9 +46,5 @@ if ! command -v hx &> /dev/null; then
 	alias hx='helix'
 fi
 
-export EDITOR=nvim
-export VISUAL=nvim
-export BROWSER=xdg-open
-
 pfetch
 
