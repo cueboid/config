@@ -13,6 +13,9 @@ setopt SHARE_HISTORY
 # setting means cd can not be ommited when changing directory
 setopt auto_cd
 
+# disable terminal beep
+unsetopt beep
+
 # auto completion stuff
 autoload -U compinit
 zstyle ':completion:*' menu select
