@@ -36,6 +36,8 @@ alias grep='grep --color=auto'
 
 alias la="ls -lathr"
 
+alias info="info --vi-keys"
+
 alias pm="pulsemixer"
 alias pc="pacmixer"
 alias lg='lazygit'
