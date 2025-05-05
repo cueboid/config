@@ -11,7 +11,6 @@ return {
 				yaml = { "yamlfmt" },
 				gleam = { "gleam" },
 				sql = { "sqlfmt" },
-				asm = { "asmfmt" },
 
 				-- c = { "clang_format" },
 				-- cpp = { "clang_format" },
