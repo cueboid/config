@@ -1,11 +1,17 @@
 autoload -U colors && colors
 
-export PS1="%{%F{207}%}%n%{%F{15}%}@%{%F{15}%}%m %{%F{7}%}%1~ %{%f%}$ "
-
 HISTSIZE=10000
 SAVEHIST=10000
 HISTFILE=~/.zsh_history
 HISTCONTROL=ignoreboth
+
+# prompt
+setopt PROMPT_SUBST
+autoload -Uz vcs_info
+precmd() { vcs_info }
+zstyle ':vcs_info:git:*' formats '%F{magenta}(%b)%f'
+PROMPT='%F{%(?.green.red)}➜%f  %F{blue}%~%f  ${vcs_info_msg_0_}
+%# '
 
 # shares zsh history between sessions
 setopt SHARE_HISTORY
