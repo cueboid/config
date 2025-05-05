@@ -10,13 +10,13 @@ HISTCONTROL=ignoreboth
 # shares zsh history between sessions
 setopt SHARE_HISTORY
 
-# setting means cd can not be ommited when changing directory
+# means cd can not be ommited when changing directory
 setopt auto_cd
 
 # disable terminal beep
 unsetopt beep
 
-# auto completion stuff
+# autocompletion stuff
 autoload -U compinit
 zstyle ':completion:*' menu select
 zmodload zsh/complist
@@ -32,7 +32,7 @@ export KEYTIMEOUT=1
 bindkey -M viins '^?' backward-delete-char
 bindkey -M viins '^H' backward-delete-char
 
-# improve ls and grep
+# improve how ls and grep are displayed
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 
