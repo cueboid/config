@@ -2,13 +2,13 @@
 name = "javascript"
 formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 auto-format = true
-tab-width = 4
+indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "typescript"
 formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 auto-format = true
-tab-width = 4
+indent = { tab-width = 4, unit = "    " }
 
 [[language]]
 name = "tsx"
