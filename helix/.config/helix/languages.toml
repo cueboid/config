@@ -2,11 +2,13 @@
 name = "javascript"
 formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 auto-format = true
+tab-width = 4
 
 [[language]]
 name = "typescript"
 formatter = { command = 'prettier', args = ["--parser", "typescript"] }
 auto-format = true
+tab-width = 4
 
 [[language]]
 name = "tsx"
@@ -124,7 +126,7 @@ name = "python"
 formatter = { command = "ruff", args = ["format", "--line-length", "88", "-"] }
 auto-format = false
 indent = { tab-width = 4, unit = "    " }
-    
+
 [[language]]
 name = "c"
 formatter = { command = "clang-format", args = ["--style=file"] }
