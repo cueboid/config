@@ -1,1 +1,12 @@
 nvim/.config/nvim/lazy-lock.json
+
+# to ignore all of the stuff except the settings.json file
+# (all the stuff they put here shouldn't be in $XDG_CONFIG_HOME!!)
+vscodium/**
+!vscodium/.config/
+vscodium/.config/**
+!vscodium/.config/VSCodium/
+vscodium/.config/VSCodium/**
+!vscodium/.config/VSCodium/User/
+vscodium/.config/VSCodium/User/**
+!vscodium/.config/VSCodium/User/settings.json
