@@ -43,6 +43,7 @@ return {
 					"ts_ls",
 					"clangd",
 					"taplo",
+					"hyprls",
 				},
 			})
 
